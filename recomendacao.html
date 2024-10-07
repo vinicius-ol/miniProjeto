@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="maisvendidos.html">Mais Vendidos</a></li>
+                <li><a href="recomendacao.html">Recomendações</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="preferencias">
+            <h2>Pesquise por seus gêneros favoritos:</h2>
+            <input type="text" id="input-preferencia" placeholder="Digite um gênero (ex: ficção, programação)">
+            <button id="btn-pesquisar">Pesquisar</button>
+        </section>
+
+        <section id="recomendacoes">
+            <h2>Recomendações:</h2>
+            <div id="recomendacoes-container"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

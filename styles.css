@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0; /* Alterado para um tom de cinza claro */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50; /* Azul escuro */
+    padding: 15px 0;
+    border-radius: 0 0 10px 10px; /* Bordas arredondadas inferiores */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3498DB; /* Azul claro para hover */
+}
+
+#welcome-message {
+    background-color: #34495E; /* Cinza escuro */
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+main {
+    padding: 20px;
+}
+
+#info {
+    margin-top: 20px;
+}
+
+#catalogo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#livros-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.livro {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.livro h3 {
+    color: #2C3E50; /* Azul escuro */
+    margin-bottom: 10px;
+}
+
+.livro p {
+    color: #333333;
+    margin: 5px 0;
+}
+
+#recomendacoes h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#recomendacoes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    text-align: center;
+    color: #2C3E50; /* Azul escuro */
+}
+
+h3 {
+    color: #2980B9; /* Azul mais claro */
+}
+
+section {
+    margin: 20px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button {
+    background-color: #2C3E50; /* Azul escuro */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button:hover {
+    background-color: #2980B9; /* Azul mais claro para hover */
+}
+
+#thank-you-message {
+    margin-top: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
